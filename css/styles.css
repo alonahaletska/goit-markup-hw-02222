@@ -53,6 +53,7 @@ body {
 .nav-link {
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--primary-txt--mode-dark);
 }
 
 .nav-link:hover {
