@@ -56,6 +56,9 @@ body {
   color: var(--primary-txt--mode-dark);
 }
 
+.nav-link.current {
+  color: var(--secondary-txt--mode-light);
+}
 .nav-link:hover {
   color: var(--secondary-txt--mode-light);
 }
@@ -177,9 +180,17 @@ body {
   color: var(--primary-txt--mode-light);
 }
 
+.address-lik:hover {
+  color: #2196f3;
+}
+
 .address-lik-mail {
   line-height: 1.171;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.address-lik-mail:hover {
+  color: #2196f3;
 }
 
 .address-lik-phone {
@@ -187,6 +198,9 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.address-lik-phone:hover {
+  color: #2196f3;
+}
 /*--Страница портфолио--*/
 /*Секция фильт*/
 
