@@ -26,7 +26,7 @@
 body {
   background-color: var(--primary-bg--mode-light);
   color: var(--main-txt--mode-light);
-  font-size: var(--main-font);
+  font-family: var(--main-font);
 }
 /* ШАПКА СТРАНИЦЫ */
 .header {
@@ -99,6 +99,7 @@ body {
   color: var(--primary-txt--mode-light);
 }
 .button.primary {
+  font-family: var(--main-font);
   background-color: var(--secondary-txt--mode-light);
   cursor: pointer;
   color: var(--primary-txt--mode-light);
@@ -219,6 +220,7 @@ body {
 /*--Страница портфолио--*/
 /* Секция фильтр */
 .filter-button-all {
+  font-family: var(--main-font);
   font-size: 16px;
   line-height: 1.62;
   cursor: pointer;
@@ -227,6 +229,7 @@ body {
   background-color: var(--secondary-txt--mode-light);
 }
 .filter-button {
+  font-family: var(--main-font);
   font-size: 16px;
   line-height: 1.62;
   cursor: pointer;
