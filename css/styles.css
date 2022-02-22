@@ -27,6 +27,7 @@ body {
   background-color: var(--primary-bg--mode-light);
   color: var(--main-txt--mode-light);
   font-family: var(--main-font);
+  text-decoration: none;
 }
 /* ШАПКА СТРАНИЦЫ */
 .header {
@@ -64,6 +65,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-txt--mode-dark);
+  text-decoration: none;
 }
 .nav-link.current {
   color: var(--secondary-txt--mode-light);
@@ -79,6 +81,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .header-contacts:hover,
 .header-contacts:focus {
@@ -190,6 +193,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-txt--mode-light);
+  text-decoration: none;
 }
 .address-link:hover,
 .address-link:focus {
@@ -201,6 +205,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .address-link-mail:hover,
 .address-link-mail:focus {
@@ -212,6 +217,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .address-link-phone:hover,
 .address-link-phone:focus {
