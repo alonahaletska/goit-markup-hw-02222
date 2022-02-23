@@ -113,7 +113,7 @@ body {
 }
 .button.primary:hover,
 .button.primary:focus {
-  background-color: var(--secondary-txt--mode-light);
+  background-color: #188ce8;
 }
 /* СЕКЦИЯ АССОЦИАЦИЙ */
 .association-title {
@@ -177,7 +177,7 @@ body {
   line-height: 1.19;
   text-decoration: none;
   letter-spacing: 0.03em;
-  color: var(--secondary-txt--mode-light);
+  color: var(--primary-txt--mode-light);
 }
 .footer-logo {
   font-family: var(--secondary-font);
@@ -186,7 +186,7 @@ body {
   line-height: 1.19;
   text-decoration: none;
   letter-spacing: 0.03em;
-  color: var(--primary-txt--mode-light);
+  color: var(--secondary-txt--mode-light);
 }
 .address-link {
   font-size: 14px;
@@ -194,6 +194,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-txt--mode-light);
   text-decoration: none;
+  font-style: normal;
 }
 .address-link:hover,
 .address-link:focus {
@@ -206,6 +207,7 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  font-style: normal;
 }
 .address-link-mail:hover,
 .address-link-mail:focus {
@@ -218,6 +220,7 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  font-style: normal;
 }
 .address-link-phone:hover,
 .address-link-phone:focus {
@@ -241,6 +244,7 @@ body {
   cursor: pointer;
   font-family: inherit;
   color: var(--primary-txt--mode-dark);
+  background-color: var(--primary-bg--mode-dark);
 }
 .filter-button:hover,
 .filter-button:focus {
@@ -250,6 +254,11 @@ body {
   color: var(--primary-txt--mode-light);
 }
 /*Секция портфолио*/
+
+.portfolio-link {
+  text-decoration: none;
+  color: var(--main-txt--mode-light);
+}
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
